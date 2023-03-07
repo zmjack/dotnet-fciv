@@ -18,7 +18,7 @@ dotnet fciv FileOrDirectory [FilePatten] [Options]
 For example:
 
 ```powershell
-dotnet fciv c:\*.txt -md5 -sha1
+dotnet fciv c:\ *.txt -md5 -sha1
 ```
 
 Supported hash algorithms:
