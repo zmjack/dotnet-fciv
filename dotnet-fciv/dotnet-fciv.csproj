@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net5.0;net6.0;net7.0</TargetFrameworks>
+    <RootNamespace>dotnet_fciv</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <PackageId>dotnet-fciv</PackageId>
+    <PackageType>DotnetCliTool</PackageType>
+    <PackAsTool>True</PackAsTool>
+
+    <LangVersion>preview</LangVersion>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>zmjack</Authors>
+    <Company>nstandard.net</Company>
+    <Description>Dotnet CLI for file checksum integrity verifier.</Description>
+    <Copyright>Copyright © nstandard.net 2023</Copyright>
+    <PackageProjectUrl>https://github.com/zmjack/dotnet-fciv</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/zmjack/dotnet-fciv</RepositoryUrl>
+    <PackageTags>fciv</PackageTags>
+    <Version>0.1.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ink" Version="0.12.1" />
+  </ItemGroup>
+
+</Project>
